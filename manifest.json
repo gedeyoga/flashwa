@@ -13,10 +13,10 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/",
+    "start_url": "/flashwa/",
     "background_color": "#E5E5E5",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/flashwa/",
     "theme_color": "#3367D6",
     "orientation": "portrait"
   }
