@@ -80,7 +80,10 @@
           if(no.slice(0,2) == '62'){
               console.log();
               $('#link').attr('href',' https://api.whatsapp.com/send?phone=+'+no);
-          }else{
+          }else if(no.slice(0,1) != '0'){
+            $('#link').attr('href',' https://api.whatsapp.com/send?phone=+62'+no);
+          }
+          else{
               console.log();
               $('#link').attr('href',' https://api.whatsapp.com/send?phone=+62'+no.slice(1, no.length));
           }
